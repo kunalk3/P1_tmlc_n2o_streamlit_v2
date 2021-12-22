@@ -7,7 +7,7 @@ from apps import app1, app2, app3, app4
 menu_data = [
         {'id': '1', 'icon': "fas fa-tachometer-alt", 'label':"Single record"},
         {'id': '2', 'icon':"far fa-clone",'label':"User data"},
-        {'id': '3', 'icon': "far fa-address-book", 'label':"Contact"}]
+        {'id': '3', 'icon': "far fa-address-book", 'label':"Contact"}] 
 
 over_theme = {'txc_inactive': '#FFFFFF'}
 menu_id = hc.nav_bar(sticky_nav=True, sticky_mode='pinned', menu_definition=menu_data, override_theme=over_theme,
