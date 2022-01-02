@@ -8,7 +8,7 @@ This repository is a part of TMLC project with end-to-end machine learning pipel
 __Project title:__ Machine learning improves predictions of an Agricultural Nitrous Oxide (N2O) emissions from intensively managed cropping systems.
 
 - _For N2O predictions, we have used ML model with __Xgb regressor__ algorithm and for user data analysis, wo go with __Auto EDA__ (pandas_profiling tool). Application is integrated using __Hydralit__ package for responsive and animated navbar, theme components in deployment using __streamlit__._
-- An idea with data is taken from a __published paper__ in _Environmental Research [Research Paper](https://iopscience.iop.org/article/10.1088/1748-9326/abd2f3) (Paper published 19 January 2021)_
+- An idea with data is taken from a __published paper__ in _Environmental Research [Research Paper](https://iopscience.iop.org/article/10.1088/1748-9326/abd2f3) (Paper published 19 January 2021)_ [*C](https://github.com/kunalk3/TMLC/tree/main/Project1)
 
 <div align="center">
   <a href="https://github.com/kunalk3/P1_tmlc_n2o_streamlit_v2/issues"><img src="https://img.shields.io/github/issues/kunalk3/workiing_with_text_data_scraping" alt="Issues Badge"></a>
@@ -74,7 +74,7 @@ __Project title:__ Machine learning improves predictions of an Agricultural Nitr
   Local URL: http://localhost:8501
 
   Network URL: http://192.168.0.102:8501
-  
+
 ---  
 
 ## :bulb: Demo
@@ -108,7 +108,7 @@ https://user-images.githubusercontent.com/41562231/147125518-2f7c95b7-720b-4d80-
 __Live Aplication__ is running on streamlit cloud platform, you can access from below.
   
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/kunalk3/p1_tmlc_n2o_streamlit_v2/main/app.py)
-  
+
 ---
   
 ### :iphone: Connect with me
