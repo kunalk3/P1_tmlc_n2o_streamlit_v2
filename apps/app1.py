@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import streamlit.components.v1 as components
 import shap, joblib
-from apps import app3
+from apps import app3 
 
 # User input values (slider panel)
 def user_input_features():   
