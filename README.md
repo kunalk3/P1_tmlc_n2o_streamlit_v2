@@ -41,6 +41,12 @@ __Project title:__ Machine learning improves predictions of an Agricultural Nitr
   
 ---
   
+## :bulb: Demo
+#### :bookmark: _Output_ - 
+https://user-images.githubusercontent.com/41562231/147125518-2f7c95b7-720b-4d80-ac04-dae671cf4caa.mp4
+
+---  
+ 
 ## :wrench: Installation
 - Create __virtual environment__ `python -m venv VIRTUAL_ENV_NAME` and activate it `.\VIRTUAL_ENV_NAME\Scripts\activate`.
 - Install necessary library for this project from the file `requirements.txt` or manually install by `pip`.
@@ -74,12 +80,6 @@ __Project title:__ Machine learning improves predictions of an Agricultural Nitr
   Local URL: http://localhost:8501
 
   Network URL: http://192.168.0.102:8501
-
----  
-
-## :bulb: Demo
-#### :bookmark: _Output_ - 
-https://user-images.githubusercontent.com/41562231/147125518-2f7c95b7-720b-4d80-ac04-dae671cf4caa.mp4
 
 ---  
   
