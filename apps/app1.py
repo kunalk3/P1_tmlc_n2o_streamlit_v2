@@ -43,7 +43,7 @@ def user_input_features():
     return features
 
 # Load model
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def load_model():
     return joblib.load(open('model/model_xgb_61_final.joblib.compressed', 'r'))
 
