@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 import shap
 from sklearn.metrics import r2_score, mean_squared_error
 from pandas_profiling import ProfileReport
-# from markupsafe import escape
+from markupsafe import escape
 from streamlit_pandas_profiling import st_profile_report
 import pybase64, joblib
 from apps import app3
@@ -35,10 +35,10 @@ def load_data():
         return None
 
 # Load model
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def load_model():
     try:
-        return joblib.load(open('model/model_xgb_61_final.joblib.compressed', 'rb'))
+        return joblib.load(open('model/model_xgb_61_final.joblib.compressed', 'r'))
     except:
         st.error('Unable to fetch model, please configure the model path...')
         return None
