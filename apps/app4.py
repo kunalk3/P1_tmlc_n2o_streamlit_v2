@@ -28,8 +28,8 @@ def app():
     st.write('''
             # __About me__
     ''')
-    app3.text('Software Developer with 3.0 years of total industry experience in analytics, software design, and development.\
-             Proficient in Python, C++, OOP, ML algorithms, data analytics with practical working experience in data analysis, planning \
+    app3.text('Data Science Engineer with 3.5 years of total industry experience and more than 2+ years in data analytics.\
+             Proficient in Python, machine Learning tools and techniques, data analytics, C++ 11/14 Std, OOPs with practical working experience in data analysis, planning \
              and designing, implementation, POC, releases to customers. Good analytical ability with a passion for turning data into \
              actionable insights, finding discoveries, hidden patterns, and solution through it.')
     

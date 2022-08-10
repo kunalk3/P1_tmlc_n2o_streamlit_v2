@@ -6,6 +6,7 @@ import streamlit.components.v1 as components
 import shap
 from sklearn.metrics import r2_score, mean_squared_error
 from pandas_profiling import ProfileReport
+# from markupsafe import escape
 from streamlit_pandas_profiling import st_profile_report
 import pybase64, joblib
 from apps import app3
@@ -162,7 +163,6 @@ def app():
                 app3.header('B) Analyze sample data:')
                 app3.text('Find the data summary with visualizations for sample data. <b>Press Analyze Data button</b>.')
                 if not st.button("Analyze Data"):
-                    print('aaaaa')
                     pr = ProfileReport(sample_data, orange_mode= True,
                         title="Agriculture Data N2O Prediction",
                         dataset={
@@ -191,7 +191,7 @@ def app():
     st.sidebar.info('''
             **Note:** Is application run slow ? _Computation time (sec.) depends on your data complexity with server run._
         ''')
-    st.sidebar.markdown('''<small>ML App with Explainable AI v1.6 | Dec 2021</small> Copyright &copy; Kunal K.''', unsafe_allow_html=True)
+    st.sidebar.markdown('''<small>ML App with Explainable AI v2.0 | Sept 2022</small> Copyright &copy; Kunal K.''', unsafe_allow_html=True)
    
     st.subheader('i) Output variable selection:')
     app3.text('A model is being built to predict the following <b>Y</b> variable:')

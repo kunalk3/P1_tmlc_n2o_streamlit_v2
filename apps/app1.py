@@ -32,7 +32,7 @@ def user_input_features():
         st.sidebar.info('''
             **Note:** Is application run slow ? _Computation time (sec.) depends on your data complexity with server run._
         ''')
-        st.sidebar.markdown('''<small>ML App with Explainable AI v1.6 | Dec 2021</small> Copyright &copy; Kunal K.''', unsafe_allow_html=True)
+        st.sidebar.markdown('''<small>ML App with Explainable AI v2.0 | Sept 2022</small> Copyright &copy; Kunal K.''', unsafe_allow_html=True)
 
     # Order for displaying the features as dataframe
     data = {'Year': Year, 'Month': Month, 'Replication': Replication, 'Data_Use': Data_Use, 'N_rate': N_rate, 'PP2': PP2,
