@@ -35,10 +35,10 @@ def load_data():
         return None
 
 # Load model
-# @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def load_model():
     try:
-        return joblib.load(open('model/model_xgb_61_final.joblib.compressed', 'r'))
+        return joblib.load(open('model/model_xgb_61_final.joblib.compressed', 'rb'))
     except:
         st.error('Unable to fetch model, please configure the model path...')
         return None
